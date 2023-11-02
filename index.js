@@ -46,3 +46,13 @@ increment6Btn.addEventListener("click", () => {
   counter2 = counter2 + 3;
   counter2Value.textContent = counter2;
 });
+
+const resetScore = document.getElementById("resetbtn");
+
+resetScore.addEventListener("click", () => {
+  // console.log("aaaa");
+  counter1 = 0;
+  counter2 = 0;
+  counter1Value.textContent = 0;
+  counter2Value.textContent = 0;
+});
